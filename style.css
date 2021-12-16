@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
 
+<<<<<<< HEAD
+header {
+    background-color: rgb(219, 228, 240);
+    border:  1px solid rgb(24, 14, 20);
+    font-size: 25px;
+    height: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+
+        
+    background:rgb(165, 59, 59);
+    }
+}
+
+header :hover{
+    color:rgb(177, 121, 179)
+}
+
+=======
+>>>>>>> parent of 8232ba2 (media)
 .tov{
     display: inline-block;
     flex-wrap: nowrap;
