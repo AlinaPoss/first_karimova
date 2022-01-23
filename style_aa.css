@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+header {
+    background-color: rgb(219, 228, 240);
+    border:  1px solid rgb(24, 14, 20);
+    font-size: 25px;
+    height: 2em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+    header{
+
+        
+    background:rgb(165, 59, 59);
+    }
+}
+
+header :hover{
+    color:rgb(177, 121, 179)
+}
+
+.tov{
+    display: inline-block;
+    flex-wrap: nowrap;
+    margin: 1px;
+    justify-content: flex-start;
+    width: 400px;
+}
+.knopochka {
+    display: block;
+}
+
+.menu {
+    flex-grow: 1;
+  }
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+a{
+    text-decoration: none;
+
+}
+
+h1 {
+}
+
+.text_foot {
+    font-size: 90%;
+    text-align: left;
+}
+
+.menu li {
+    margin-right: 10px;
+  }
+
+.menu a {
+    padding: 10px 6px;
+  }
+
+.pic {
+    display: inline;
+   /* border:  4px solid rgb(24, 14, 20);*/
+    margin-left: 0;
+    margin-right: auto;
+    border: solid rgb(24, 14, 20);
+}
+
+.disc_da{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 100%;
+}
+
+.container{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: rgb(201, 209, 243);
+    font-family: Montserrat, Arial;
+    text-decoration: none;
+    font-size: 100%;
+    padding: 5px;
+ }

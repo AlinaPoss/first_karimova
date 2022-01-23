@@ -1,0 +1,21 @@
+.menu {
+    flex-grow: 3;
+  }
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .menu li {
+    margin-right: 10px;
+  }
+h1 {
+}
+p{
+    text-align: center;
+  }
+a{
+    text-decoration: none;
+}
